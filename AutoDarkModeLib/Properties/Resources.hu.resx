@@ -120,11 +120,35 @@
   <data name="About" xml:space="preserve">
     <value>Beállítások</value>
   </data>
+  <data name="AboutButtonCopy" xml:space="preserve">
+    <value>Másolás</value>
+  </data>
+  <data name="AboutTextBlockFollowUs" xml:space="preserve">
+    <value>Kövess minket</value>
+  </data>
+  <data name="AboutTextBlockVersion" xml:space="preserve">
+    <value>Verzió</value>
+  </data>
+  <data name="AboutVersionInfoCopied" xml:space="preserve">
+    <value>Verzióadatok vágólapra másolva</value>
+  </data>
   <data name="applyButton" xml:space="preserve">
     <value>Alkalmaz</value>
   </data>
+  <data name="applyGeoButton" xml:space="preserve">
+    <value>Koordináták Alkalmazása</value>
+  </data>
+  <data name="AppsCheckBoxDWMPrevalence" xml:space="preserve">
+    <value>Témaszín alkalmazása a címsávnál és ablakok széleinél</value>
+  </data>
+  <data name="AppSystemComboBoxItemAccentOnly" xml:space="preserve">
+    <value>Csak témaszín</value>
+  </data>
   <data name="autoCheckBox" xml:space="preserve">
-    <value>Automatikus téma változtatás engedélyezése</value>
+    <value>Automatikus témaváltoztatás engedélyezése</value>
+  </data>
+  <data name="AutomaticThemeSwitch" xml:space="preserve">
+    <value>Automatikus témaváltoztatás</value>
   </data>
   <data name="buttonDownloadExtension" xml:space="preserve">
     <value>Bővítmény letöltése</value>
@@ -133,7 +157,7 @@
     <value>Mégse</value>
   </data>
   <data name="cb12HourTime" xml:space="preserve">
-    <value>12 órás óra</value>
+    <value>12 órás formátum</value>
   </data>
   <data name="cbAccentColor" xml:space="preserve">
     <value>Csak sötét módban látható.
@@ -147,9 +171,9 @@ Ha problémába ütközik: kérjük növelje az átváltási időt a beállítá
     <comment>Connected standby?</comment>
   </data>
   <data name="cbConnectedStandbyTooltip" xml:space="preserve">
-    <value>A mobil eszközök, mint például a Microsoft Felület termékei, egy új fajta készenléti állapotot használnak.
+    <value>A mobil eszközök, mint például a Microsoft Surface termékei egy újfajta készenléti állapotot használnak.
 Ennek az opciónak az engedélyezésével az Auto Dark Mode azonnal témát vált, amint az eszköze felébred.
-Viszont ez az opció használja az akkumulátort, szóval csak akkor engedélyezze, ha muszáj!</value>
+Ez az opció csökkenti az akkumulátor üzemidejét, csak akkor engedélyezze, ha szükséges!</value>
   </data>
   <data name="cbOfficeWhiteTheme" xml:space="preserve">
     <value>Alternatív világos mód</value>
@@ -164,7 +188,7 @@ Viszont ez az opció használja az akkumulátort, szóval csak akkor engedélyez
     <value>Energiatakarékos enyhítés a témaváltáshoz</value>
   </data>
   <data name="cbSettingsEnergySaverMitigationInfo" xml:space="preserve">
-    <value>Ez csak akkor működik, ha nem engedélyezte manuálisan az akkumulátorkímélőt!</value>
+    <value>Ez csak akkor működik, ha manuálisan nem engedélyezte  az akkumulátorkímélőt!</value>
   </data>
   <data name="cbSettingsLogonTask" xml:space="preserve">
     <value>Használjon bejelentkezési feladatot indítási bejegyzés helyett</value>
@@ -176,7 +200,7 @@ Viszont ez az opció használja az akkumulátort, szóval csak akkor engedélyez
     <value>Ez a lehetőség le van tiltva, mert még nem telepítette a Windows 10 2019. április 10-i frissítést a számítógépére.</value>
   </data>
   <data name="cmbAccentColor" xml:space="preserve">
-    <value>Kiemelő szín a tálcához</value>
+    <value>Témaszín a tálcához</value>
   </data>
   <data name="cmbAdjTheme" xml:space="preserve">
     <value>Alkalmazkodjon a rendszerhez</value>
@@ -187,23 +211,35 @@ Viszont ez az opció használja az akkumulátort, szóval csak akkor engedélyez
   <data name="cmbAlwWhite" xml:space="preserve">
     <value>Mindig világos</value>
   </data>
+  <data name="ConfigHyperLinkOpenConfig" xml:space="preserve">
+    <value>Konfigurációs fájl megnyitása</value>
+  </data>
+  <data name="ConfigHyperLinkOpenConfigFolder" xml:space="preserve">
+    <value>Konfigurációs mappa megnyitása</value>
+  </data>
+  <data name="ConfigHyperLinkOpenLog" xml:space="preserve">
+    <value>Napló fájl megnyitása</value>
+  </data>
+  <data name="ConfigTextBlockHeader" xml:space="preserve">
+    <value>Konfiguráció</value>
+  </data>
   <data name="dbCurrently" xml:space="preserve">
     <value>Jelenleg:</value>
   </data>
   <data name="dbDark" xml:space="preserve">
-    <value>Háttérkép a sötét módhoz</value>
+    <value>Háttérkép sötét módhoz</value>
   </data>
   <data name="dbDel" xml:space="preserve">
     <value>Törlés/Letiltás</value>
   </data>
   <data name="dbErrorText" xml:space="preserve">
-    <value>Lehet, hogy a képfájlja sérült, vagy az elérési út nem létezik.</value>
+    <value>Lehet, hogy a képfájl sérült, vagy az elérési út nem létezik.</value>
   </data>
   <data name="dbFilePicker" xml:space="preserve">
     <value>Fájl kiválasztása</value>
   </data>
   <data name="dbLight" xml:space="preserve">
-    <value>Háttérkép a világos témához</value>
+    <value>Háttérkép világos módhoz</value>
   </data>
   <data name="dbMainHeader" xml:space="preserve">
     <value>Asztal háttere</value>
@@ -238,19 +274,19 @@ Viszont ez az opció használja az akkumulátort, szóval csak akkor engedélyez
   <data name="donationDescription" xml:space="preserve">
     <value>Helló! Köszönjük, hogy az Auto Dark Mode alkalmazást használja. Hogy tetszik önnek eddig?
 
-Ez az alkalmazás kellemesebbé teszi mindennapjait, azáltal, hogy gondoskodik a szeméről. Ugyanakkor teljesen ingyenes, hirdetésmentes, nem gyűjt felhasználói adatokat és nyílt forráskódú.
+Ez az alkalmazás kellemesebbé teszi mindennapjait, azáltal hogy gondoskodik a szeméről. Teljesen ingyenes, hirdetésmentes, nem gyűjt felhasználói adatokat és nyílt forráskódú.
 Ez a projekt nem hoz nekem semennyi hasznot.
 
-Ebből kifolyólag támogathatna egy önkéntes adománnyal. Még egy kis összegtől is boldogan ugrálnék a lakásomban. Csak annyit adományozzon, amennyire ön értékeli a munkámat.</value>
+Ebből kifolyólag lehetséges önkéntes adománnyal támogatni további fejlesztésemet. Még egy kis összegtől is boldogan ugrálok a lakásomban. Csak annyit adományozzon, amennyire ön értékeli a munkámat.</value>
   </data>
   <data name="DonationHeaderReason" xml:space="preserve">
-    <value>Miért kellene adományoznia?</value>
+    <value>Miért adományozzon?</value>
   </data>
   <data name="DonationHowTo" xml:space="preserve">
     <value>Hogyan lehet adományozni?</value>
   </data>
   <data name="DonationPayPalDescription" xml:space="preserve">
-    <value>Pénzt küldhet nekem PayPal-on keresztül. Ez teljesen önkéntes, és nem szabad semmilyen kompenzációra számítani.</value>
+    <value>PayPal-on keresztül lehetséges. Ez egy teljesen önkéntes adomány, ezért semmilyen kompenzációra ne számíts!</value>
   </data>
   <data name="enabled" xml:space="preserve">
     <value>Engedélyezve</value>
@@ -280,8 +316,26 @@ Mellékjegyzet: SOHA ne futtassa manuálisan rendszergazdaként az Auto Dark Mod
 
 Ha ezek a dolgok sem segítenek, megjegyzést fűzhet a GitHub problémához egy a hibával kapcsolatos képernyőkép csatolásával. A probléma eléréséhez kattintson az "Igen" gombra.</value>
   </data>
+  <data name="ForceDarkTheme" xml:space="preserve">
+    <value>Sötét Téma Kényszerítése</value>
+  </data>
+  <data name="ForceLightTheme" xml:space="preserve">
+    <value>Világos téma Kényszerítése</value>
+  </data>
+  <data name="headerGeoCoordinates" xml:space="preserve">
+    <value>Földrajzi Koordináták</value>
+  </data>
+  <data name="headerLocationData" xml:space="preserve">
+    <value>Helyadatok</value>
+  </data>
+  <data name="HotkeyCheckboxToggleAutomaticThemeSwitchNotification" xml:space="preserve">
+    <value>Értesítések mutatása gyorsgomb használatakor</value>
+  </data>
   <data name="info" xml:space="preserve">
     <value>Infó</value>
+  </data>
+  <data name="LabelFollowSystemTheme" xml:space="preserve">
+    <value>Applikáció döntheti el</value>
   </data>
   <data name="lblApps" xml:space="preserve">
     <value>Alkalmazások:</value>
@@ -290,7 +344,7 @@ Ha ezek a dolgok sem segítenek, megjegyzést fűzhet a GitHub problémához egy
     <value>Város</value>
   </data>
   <data name="lblCustomStart" xml:space="preserve">
-    <value>Egyéni kezdési idő</value>
+    <value>Egyéni kezdő idő</value>
   </data>
   <data name="lblDark" xml:space="preserve">
     <value>Sötét</value>
@@ -313,6 +367,15 @@ Ha ezek a dolgok sem segítenek, megjegyzést fűzhet a GitHub problémához egy
   <data name="lblOffset" xml:space="preserve">
     <value>Eltolás</value>
   </data>
+  <data name="lblPickTheme" xml:space="preserve">
+    <value>Válassz Témát</value>
+  </data>
+  <data name="lblPickWallpaper" xml:space="preserve">
+    <value>Válassz Háttérképet</value>
+  </data>
+  <data name="lblPosition" xml:space="preserve">
+    <value>Pozíció</value>
+  </data>
   <data name="lblReset" xml:space="preserve">
     <value>Visszaállítás</value>
   </data>
@@ -326,25 +389,25 @@ Ha ezek a dolgok sem segítenek, megjegyzést fűzhet a GitHub problémához egy
     <value>Rendszer:</value>
   </data>
   <data name="lblThirdParty" xml:space="preserve">
-    <value>Használt harmadik féltől származó szoftver</value>
+    <value>Felhasznált harmadik féltől származó szoftverek</value>
   </data>
   <data name="lblTranslator" xml:space="preserve">
-    <value>Fordító: Armin Osaj</value>
+    <value>Fordító: Armin Osaj és Levente Mayer</value>
   </data>
   <data name="lblUpdates" xml:space="preserve">
     <value>Frissítések</value>
   </data>
   <data name="locationCheckBox" xml:space="preserve">
-    <value>Használja a Helyszolgáltatást</value>
+    <value>Helyszolgáltatás használata</value>
   </data>
   <data name="locationCityNotFound" xml:space="preserve">
     <value>Nem található</value>
   </data>
   <data name="msgBatterySaver" xml:space="preserve">
-    <value>A Windows hibája miatt a tálca nem váltja megfelelően a színét akkumulátorkímélő módban. Ha problémák merülnek fel, kapcsolja ki az akkumulátorkímélőt.</value>
+    <value>A Windows egyik hibája miatt a tálca színe nem változik megfelelően akkumulátorkímélő módban. Ha ilyen probléma merülne fel, kapcsolja ki az akkumulátorkímélő üzemmódot.</value>
   </data>
   <data name="msgChangesSaved" xml:space="preserve">
-    <value>A váloztatásaid el lettek mentve!</value>
+    <value>A változtatások sikeresen mentésre kerültek!</value>
   </data>
   <data name="msgClickApply" xml:space="preserve">
     <value>A módosítások mentéséhez kattintson az Alkalmaz gombra.</value>
@@ -359,7 +422,7 @@ Ha ezek a dolgok sem segítenek, megjegyzést fűzhet a GitHub problémához egy
     <value>hiba történt :(</value>
   </data>
   <data name="msgLocPerm" xml:space="preserve">
-    <value>Ennek az alkalmazásnak szüksége van az ön tartózkodási helyéhez</value>
+    <value>Az alkalmazás működéséhez engedélyezze a Helyadatok hozzáférését.</value>
   </data>
   <data name="msgNo" xml:space="preserve">
     <value>Nem</value>
@@ -399,8 +462,14 @@ Jelenleg telepített verzió: {0}, új verzió: {1}</value>
   <data name="NavbarDonation" xml:space="preserve">
     <value>Támogatás</value>
   </data>
+  <data name="NavbarPersonalization" xml:space="preserve">
+    <value>Személyreszabás</value>
+  </data>
   <data name="NavbarSettings" xml:space="preserve">
     <value>Beállítások</value>
+  </data>
+  <data name="NavbarSwitchModes" xml:space="preserve">
+    <value>Módok váltása</value>
   </data>
   <data name="NavbarTime" xml:space="preserve">
     <value>Idő</value>
@@ -412,7 +481,7 @@ Jelenleg telepített verzió: {0}, új verzió: {1}</value>
     <value>Háttérkép/Téma</value>
   </data>
   <data name="offsetButton" xml:space="preserve">
-    <value>Beállít</value>
+    <value>Beállítás</value>
   </data>
   <data name="OpenPath" xml:space="preserve">
     <value>Mappa megnyitása</value>
@@ -420,11 +489,32 @@ Jelenleg telepített verzió: {0}, új verzió: {1}</value>
   <data name="or" xml:space="preserve">
     <value>vagy</value>
   </data>
+  <data name="PostponeButtonSkipAutoSwitchOnce" xml:space="preserve">
+    <value>Automatikus váltás kihagyása egyszer</value>
+  </data>
+  <data name="PostponeReasonGPUMonitorModule" xml:space="preserve">
+    <value>GPU monitorozó modul</value>
+  </data>
+  <data name="PostponeReasonPauseAutoSwitch" xml:space="preserve">
+    <value>Automatikus váltás modul szüneteltetése</value>
+  </data>
+  <data name="PostponeReasonSystemIdleCheckModule" xml:space="preserve">
+    <value>Rendszer üresjárat ellenőrző</value>
+  </data>
   <data name="rbCustomHours" xml:space="preserve">
-    <value>Egyéni órák beállítása</value>
+    <value>Egyéni idő beállítása</value>
+  </data>
+  <data name="rbDisabled" xml:space="preserve">
+    <value>Tiltva</value>
   </data>
   <data name="rbLocation" xml:space="preserve">
     <value>Napnyugtától napkeltéig</value>
+  </data>
+  <data name="rbLocationGeo" xml:space="preserve">
+    <value>Napnyugtától napkeltéig (Földrajzi koordináták)</value>
+  </data>
+  <data name="RequestSwitchAction" xml:space="preserve">
+    <value>Engedélyezze hogy téma váltást kérvényezzen rögtön</value>
   </data>
   <data name="restart" xml:space="preserve">
     <value>Újraindítás</value>
